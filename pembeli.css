@@ -1,0 +1,95 @@
+div.box{
+    display: inline-block;
+    width: 198px;
+    float: left;
+    border: 2px solid #ddd;
+    margin: 10px;
+    margin-left: 12px;
+    margin-right: 8px;
+}
+div.box img{
+    width: 100%;
+    height: 250px;
+}
+div.box :hover{
+    border: 3px solid #000;
+}
+div.box div.deskripsi{
+    padding: 15px;
+    text-align: center;
+    background-color: lightcoral;
+}
+.login{
+    width: 400px;
+    margin: 16px auto;
+    font-size: 16px;
+}
+.login-header{
+    background: lightsalmon;
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+.login-container{
+    background: #ebebeb;
+    padding: 12px;
+}
+.login input{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    padding: 16px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+    height: 10px; 
+}
+.login tr{
+    padding: 20px;
+}
+.login input[type="text"]:focus{
+    border-color: #888888;
+}
+.login input[type="submit"]{
+    background: lightslategray;
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+.login input[type="submit"]:hover{
+    background: lightsteelblue;
+}
+.login input[type="submit"]:focus{
+    border-color: palevioletred;
+}.login-container td{
+    font-size: 18px;
+}
+div.hm{
+    background-color: lightcoral;
+}
+div.hiya{
+    background-color: lightsalmon;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: lightslategray;
+    height: 50px;
+}
+body{
+    background-image: url(makanan5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.oke{
+    background-color: lavender;
+    font-family: monospace;
+    color: lightslategray;
+    height: 50px;
+    width: 60%;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
