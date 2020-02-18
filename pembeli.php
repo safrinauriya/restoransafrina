@@ -5,7 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PEMBELI</title>
     <link rel="stylesheet" href="pembeli.css" type="text/css">
+<style>
+#no{
+    background-color: lightcoral;
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    padding: 50px;
+}
+#card{
+    background-color: lightgrey;
+    border-radius: 8px;
+    height: 500px;
+    margin-left: 350px;
+    width: 500px;
+}
 
+#cardd-content{
+    padding: 12px 20px;
+}
+#cardd-title{
+    font-family: cursive;
+    letter-spacing: 4px;
+    padding-bottom: 23px;
+    padding-top: 13px;
+    text-align: center;
+}
+.login1{
+    padding: 20px;
+    margin: 1px 80px;
+}
+.login2{
+    padding: 20px;
+    margin: 0px 80px;
+}
+.login3{
+    padding: 20px;
+    margin: 0px 80px;
+}
+#abl{
+    margin: 0px 150px;
+}
+button{
+    height: 50px;
+    width: 300px;
+    background-color: rosybrown;
+    margin:auto;
+    color:white;
+}
+
+</style>
 </head>
 <body>
 <div class="hiya"><center><h1>SELAMAT DATANG DI RESTORAN MAMASUKA</h1></center></div>
@@ -35,32 +84,45 @@
     <img src="soto.jpg" alt="soto">
     <div class="deskripsi">Soto</div>
     </div>
+    <div class="box">
+    <img src="teh.jpg" alt="teh">
+    <div class="deskripsi">Es Teh</div>
+    </div>
+    <div class="box">
+    <img src="jeruk.jpg" alt="esjeruk">
+    <div class="deskripsi">Es Jeruk</div>
+    </div>
+    <div class="box">
+    <img src="campur.jpg" alt="es campur">
+    <div class="deskripsi">Es Campur</div>
+    </div>
+    <div class="box">
+    <img src="esteler.jpg" alt="es teler">
+    <div class="deskripsi">Es Teler</div>
+    </div>
+    <div class="box">
+    <img src="jus.jpg" alt="jus">
+    <div class="deskripsi">Jus Buah</div>
+    </div>
+    <div class="box">
+    <img src="air.jpg" alt="air">
+    <div class="deskripsi">Air Mineral</div>
+    </div>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 
     <div class="login">
         <h2 class="login-header">PEMESANAN MAKANAN</h2>
-    <form class="login-container"action="" method="GET">
+        <form class="login-container"action="pembeli2.php" method="GET">
+        <input type="text" name="no_meja" placeholder="NO MEJA">
         <input type="text" name="nama_pembeli" placeholder="NAMA PEMBELI">
         <input type="text" name="jumlah_porsi" placeholder="PORSI">
         <input type="text" name="makanan" placeholder="NAMA MAKANAN">
         <br>
-        <input type="submit" value="SUBMIT">
+        <button type="submit">SUBMIT</button>
     </form>
+    </div>
 
-    <div class="hm">
-    <table>
-        <tr>
-            <td>NAMA</td> <td>:<?php echo $_GET['nama_pembeli']?? ''?></td>
-        </tr>
-        <tr>
-            <td>PORSI</td> <td>:<?php echo $_GET['jumlah_porsi']?? ''?></td>
-        </tr>
-        <tr>
-            <td>MAKANAN</td> <td>:<?php echo $_GET['makanan']?? ''?></td>
-        </tr>
-    </table>
-    </div>
-    </div>
-    
 </body>
 </html>

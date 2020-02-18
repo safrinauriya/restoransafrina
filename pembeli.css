@@ -36,6 +36,7 @@ div.box div.deskripsi{
 .login-container{
     background: #ebebeb;
     padding: 12px;
+    text-align: center;
 }
 .login input{
     box-sizing: border-box;
@@ -93,3 +94,58 @@ div.oke{
     margin-left: 250px;
     margin-right: 250px;
 }
+#no{
+    background-color: lightcoral;
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    padding: 200px;
+}
+#card{
+    background-color: lightgrey;
+    border-radius: 8px;
+    height: 800px;
+    margin: 13rem auto 8.1rem auto;
+    width: 730px;
+}
+#cardd{
+    background-color: lightpink;
+    border-radius: 8px;
+    box-shadow: 7px 9px 14px rgba(0,0, 0,0.65);
+    height: 800px;
+    margin: 13rem auto 8.1rem auto;
+    width: 730px;
+}
+#cardd-content{
+    padding: 12px 44px;
+}
+#cardd-title{
+    font-family: cursive;
+    letter-spacing: 4px;
+    padding-bottom: 23px;
+    padding-top: 13px;
+    text-align: center;
+}
+.login1{
+    padding: 20px;
+    margin: 1px 60px;
+    color: saddlebrown;
+    font-family: fantasy;
+    font-size: 15px;
+}
+.login2{
+    padding: 20px;
+    margin: 0px 80px;
+}
+.login3{
+    padding: 20px;
+    margin: 0px 80px;
+}
+#abl{
+    margin: 0px 150px;
+    height: 15px;
+    width: 20px;
+    background-color: rosybrown;
+}
+
+
