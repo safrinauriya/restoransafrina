@@ -114,15 +114,24 @@ button{
 
     <div class="login">
         <h2 class="login-header">PEMESANAN MAKANAN</h2>
-        <form class="login-container"action="pembeli2.php" method="GET">
+        <?php
+        if(isset($_GET['pesan'])){
+            if($_GET['pesan']=="gagal"){
+                echo "LOGIN GAGAL";
+            }else if ($_GET['pesan']=="logout"){
+                echo "anda berhasil log out";
+            }
+            }
+        ?>
+        <form class="login-container"action="cek_login2.php" method="GET">
         <input type="text" name="no_meja" placeholder="NO MEJA">
         <input type="text" name="nama_pembeli" placeholder="NAMA PEMBELI">
         <input type="text" name="jumlah_porsi" placeholder="PORSI">
         <input type="text" name="makanan" placeholder="NAMA MAKANAN">
+        <input type="text" name="minuman" placeholder="NAMA MINUMAN">
         <br>
         <button type="submit">SUBMIT</button>
     </form>
     </div>
-
 </body>
 </html>

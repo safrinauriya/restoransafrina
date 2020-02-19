@@ -30,34 +30,14 @@
     padding-top: 13px;
     text-align: center;
 }
-.login1{
+.login{
     padding: 20px;
     margin: 1px 60px;
     color: saddlebrown;
     font-family: fantasy;
     font-size: 30px;
 }
-.login2{
-    padding: 20px;
-    margin: 1px 60px;
-    color: saddlebrown;
-    font-family: fantasy;
-    font-size: 30px;
-}
-.login3{
-    padding: 20px;
-    margin: 1px 60px;
-    color: saddlebrown;
-    font-family: fantasy;
-    font-size: 30px;
-}
-.login4{
-    padding: 20px;
-    margin: 1px 60px;
-    color: saddlebrown;
-    font-family: fantasy;
-    font-size: 30px;
-}
+
 #abl{
     margin: 0px 150px;
 }
@@ -89,23 +69,28 @@ h2{
 
     <table>
     <div>
-    <tr class="login4">
+    <tr class="login">
             <td>NO MEJA</td> <td> : <?php echo $_GET['no_meja']?? ''?></td>
     </tr>
     </div>
     <div>
-    <tr class="login1">
+    <tr class="login">
             <td>NAMA</td> <td> : <?php echo $_GET['nama_pembeli']?? ''?></td>
     </tr>
     </div>
     <div >
-    <tr class="login2">
+    <tr class="login">
             <td>PORSI</td> <td> : <?php echo $_GET['jumlah_porsi']?? ''?></td>
     </tr>
     </div>
     <div >
-    <tr class="login3">
+    <tr class="login">
             <td>MAKANAN</td> <td> : <?php echo $_GET['makanan']?? ''?></td>
+    </tr>
+    </div>
+    <div >
+    <tr class="login">
+            <td>MINUMAN</td> <td> : <?php echo $_GET['minuman']?? ''?></td>
     </tr>
     </div>
     </table>
