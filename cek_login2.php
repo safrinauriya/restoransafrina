@@ -1,6 +1,7 @@
+
 <?php
 session_start();
-include 'koneksi3.php';
+include 'koneksi.php';
 
 $makanan = $_GET['makanan'];
 $minuman = $_GET['minuman'];
@@ -13,7 +14,8 @@ if($cek>0){
     $_SESSION['status'] = "login";
     header("location:pembeli2.php");
 }else{
-    echo "MAAF MENU TIDAK TERSEDIA";
+    echo"maaf pilihan anda tidak ada";
+    
 
 }
 ?>

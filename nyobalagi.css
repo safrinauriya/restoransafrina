@@ -1,0 +1,53 @@
+body{
+    background-color: khaki;
+}
+.judul{
+    background-color: lavenderblush;
+    font-family: fantasy;
+    color: lightcoral;
+    font-size: 30px;
+    float: center;
+    text-align: center;
+    height: 15px;
+    font-weight: 700;
+}
+.isi{
+    background-color:lightpink;
+    text-align: center;
+    float: center;
+    color:lightslategray;
+    padding: 15px;
+    height: 100px;
+    width: 50%;
+    border-radius: 15px;
+    box-shadow: black;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+input{
+    width: 20px;
+    background-color: lightyellow;
+    font-family: serif;
+   color: midnightblue;
+    font-size: 15px;
+
+}
+button{
+    color: navajowhite;
+    background-color: palevioletred;
+    height: 30px;
+    width: 30%;
+}
+button :hover{
+    color: peachpuff;
+}
+.akun{
+    color: teal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: silver;
+    font-size: 20px;
+    margin-left: 50px;
+    background-color: cornflowerblue;
+}
